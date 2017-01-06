@@ -1,0 +1,17 @@
+
+
+
+
+
+
+!!!!!!!!!!! PLEASE READ THIS BEFORCE UPDATING GEOIP DATABASE !!!!!!!!!!!
+
+YOU NEVER SHOULD DELETE OR RENAME THE 2 DATABASES IN THAT FOLDER OTHERWISE YOUR SERVER WILL CRASH
+ONLY UPDATE THE DATABASES IF YOU KNOW WHAT YOU ARE DOING
+
+_________________________________________________________________________
+
+greets, 
+
+
+budspencer1
