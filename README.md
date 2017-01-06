@@ -61,6 +61,7 @@ and very much more ...
     #claim - claim master/admin via user system (e.g. #claim username password1 password2)
     #spy - join/leave spy mode (invisible spectator)
     #allowpriv - allow/disallow players to claim a specified privilege level
+    #autosendmap - this command enables/disables autosendmap to players on connect
     
     ... and much more ... :D
 
@@ -86,18 +87,18 @@ and very much more ...
         - autotools (for both)
         - libtool (for both)
         
-    1. Download and unpack latest git repository (git clone https://www.github.com/budspencer1/GoldMod-Cube2.git)
-    2. type in console: cd GoldMod-Cube2 (connects to GoldMod-Cube2 repository)
+    1. Download and unpack latest git repository (git clone https://www.github.com/budspencer1/eXtremeServer.git)
+    2. type in console: cd eXtremeServer (connects to eXtremeServ repository)
     3. type in console: cd src (connects you to src/ directory)
     (4. Clean it: make clean (cleans archive))
-    5.0 Build it for Linux: make (compiles GoldMod)
+    5.0 Build it for Linux: make (compiles eXtremeServer)
     5.1 Build it for Windows: make -f Makefile.win32 (executes src/Makefile.win32 to cross-compile from linux to windows)
     (6. Clean it again: make clean)
-    If you did it as i described, a "GoldMod64"(linux) or a "GoldModServer.exe"(windows) in GoldMod-Cube2 main directory
-    To run Linux Server: cd GoldMod-Cube2 
-                            ./Goldmod64
+    If you did it as i described, a "eXtremeServ64"(linux) or a "eXtremeServer.exe"(windows) in eXtremeServer main directory
+    To run Linux Server: cd eXtremeServer 
+                            ./eXtremeServer
     To run Windows Server: go to mod archive
-                           start GoldModServer.exe
+                           start eXtremeServer.exe
   
     PS: DON'T FORGET TO SETUP SERVER. Just rename "server-init.cfg.default" to "server-init.cfg" and setup server with that file. Save and close it and start server.
     PPS: You don't need to do Step 4 and 6. This command just clean your mod archive from the while compiling generated .o files -> saves disk space
@@ -108,7 +109,7 @@ and very much more ...
 **Update your Server-Mod:**
 
     1. Open Terminal Shell
-    2. type in: cd GoldMod-Cube2
+    2. type in: cd eXtremeServer
     3. type in: git pull
     
     4. Build it: cd src
