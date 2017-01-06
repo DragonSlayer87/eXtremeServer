@@ -17,6 +17,7 @@ Goldmod is an advanced server modification based on remod.
 - very userfriendly
 - informative server log with timestamp
 - IRC-Bot
+- Ingame IRC-Bot (special bot, what returns all messages that irc-guys say in irc)
 - invisible master and invisible admin
 - root privilege level (higher than admin)
 - cubescript scripting language (very easy to add new functions/commands)
@@ -28,11 +29,12 @@ Goldmod is an advanced server modification based on remod.
 - user system (username, password1, password2)
 - cross platform (windows, linux, mac, bsd, arch, ...) 
 - Duel Mode 
+- Autosendmap functions
 - possibility to rename bots ("ainame" in server-init)
 - askidban library (ban some vpns from server)
 - really often updates with bugfixes, new functions, ...
 - spy mode (invisible spectator)
-- implementation of rugby mode (if you carry the flag and shoot a teammate with a rifle, you pass the flag to your target)
+- implementation of rugby mode (if you carry the flag and shoot a teammate with a rifle, you pass the flag to your target) (supports all multiplayer weapons)
 - allowmaster, allowadmin, allowroot, disallowmaster, disallowadmin, disallowroot (allow/disallow a specified player to claim a specified privilege)
 - block selfdamage or teamdamage
 - possibility of enabling and disabling commands via server-init.cfg
