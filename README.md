@@ -10,7 +10,7 @@ Goldmod is an advanced server modification based on remod.
 
 -------------------------------------------------------------------------------------------------------------
 
-** Features:**
+**Features:**
 
 - customize your server with "ammo", "health","armour", ... commands
 - very good UI
